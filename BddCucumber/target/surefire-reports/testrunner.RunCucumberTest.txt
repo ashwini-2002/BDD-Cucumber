@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.567 s <<< FAILURE! -- in testrunner.RunCucumberTest
+Login functionality.Successful login with valid credentials -- Time elapsed: 0.338 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Launch the browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Launch the browser")
+public void launch_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I open the login page")
+public void i_open_the_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the valid username and password")
+public void i_enter_the_valid_username_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on login button")
+public void i_click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see the products page")
+public void i_should_see_the_products_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
